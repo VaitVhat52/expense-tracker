@@ -7,3 +7,30 @@
 * {
   font-family: "REM", sans-serif;
 }
+
+/* total width */
+.expenseList::-webkit-scrollbar {
+  background-color: #fff;
+  width: 16px;
+}
+
+/* background of the scrollbar except button or resizer */
+.expenseList::-webkit-scrollbar-track {
+  background-color: hsl(200, 7%, 12%);
+}
+
+/* scrollbar itself */
+.expenseList::-webkit-scrollbar-thumb {
+  background-color: #babac0;
+  border-radius: 16px;
+  border: 5px solid hsl(200, 7%, 12%);
+}
+
+/* set button(top and bottom of the scrollbar) */
+.expenseList::-webkit-scrollbar-button {
+  display: none;
+}
+
+.expenseList {
+  overflow-x: hidden;
+}
