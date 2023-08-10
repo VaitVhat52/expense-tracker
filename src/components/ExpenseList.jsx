@@ -3,7 +3,7 @@ import Expense from "./Expense";
 
 const ExpenseList = () => {
   return (
-    <div className="expenseList flex flex-col gap-3 max-h-72 overflow-scroll bg-secondary-content p-4 mx-[30%] rounded-b-lg">
+    <div className="expenseList mx-[30%] flex max-h-72 flex-col gap-3 overflow-scroll rounded-b-lg bg-secondary-content p-4">
       <Expense />
       <Expense />
       <Expense />

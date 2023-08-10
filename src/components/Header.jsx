@@ -1,7 +1,7 @@
 import React from "react";
 
 const Header = () => {
-  return <h1 className="text-center text-4xl mt-10">Expense Tracker</h1>;
+  return <h1 className="mt-10 text-center text-4xl">Expense Tracker</h1>;
 };
 
 export default Header;
