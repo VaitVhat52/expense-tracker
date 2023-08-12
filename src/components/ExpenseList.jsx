@@ -4,15 +4,7 @@ import Expense from "./Expense";
 const ExpenseList = (props) => {
   return (
     <div className="expenseList mx-[30%] flex max-h-72 flex-col gap-3 overflow-scroll bg-secondary-content p-4">
-      {props.expenseItems.map((expenseItem) => {
-        return (
-          <Expense
-            key={expenseItem.id}
-            text={expenseItem.text}
-            amount={expenseItem.amount}
-          />
-        );
-      })}
+      {/* {props.expenseItems.map((expenseItem) => {})} */}
     </div>
   );
 };

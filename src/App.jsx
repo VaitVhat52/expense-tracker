@@ -34,11 +34,12 @@ function App() {
       amount: 12.71,
     },
   ]);
+  const [balance, setBalance] = useState(0);
 
   return (
     <div className="flex flex-col">
       <Header />
-      <Balance />
+      <Balance balance={balance} />
       <IncreaseDecrease />
       <ExpenseList expenseItems={expenseItems} />
       <Form />
